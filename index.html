@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DrivoX — Sim Drift</title>
+<meta name="description" content="DrivoX — sim racing drift on Forza Horizon 6 and Assetto Corsa. All my channels in one place.">
+<meta name="theme-color" content="#0b0c0f">
+<meta property="og:title" content="DrivoX — Sim Drift">
+<meta property="og:description" content="Forza Horizon 6 & Assetto Corsa drift on a MOZA rig. All my channels.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Inter:wght@400;500;600&family=Cairo:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css">
+<style>
+  :root {
+    --bg: #0b0c0f;
+    --card: #15171c;
+    --card-hover: #1c1f26;
+    --line: #262a33;
+    --text: #f2f3f5;
+    --muted: #9aa0ab;
+    --accent: #ff3b30;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    min-height: 100vh;
+    background:
+      radial-gradient(120% 60% at 50% -10%, rgba(255, 59, 48, .18), transparent 60%),
+      var(--bg);
+    color: var(--text);
+    font: 500 16px/1.5 Inter, system-ui, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 56px 16px 40px;
+  }
+  main { width: 100%; max-width: 440px; text-align: center; }
+
+  .mark {
+    width: 92px; height: 92px; margin: 0 auto 18px;
+    border-radius: 50%;
+    display: grid; place-items: center;
+    background: linear-gradient(145deg, #1d2027, #0f1014);
+    border: 1px solid var(--line);
+    box-shadow: 0 0 0 4px rgba(255, 59, 48, .12), 0 12px 30px rgba(0, 0, 0, .5);
+    font: 700 34px/1 Rajdhani, sans-serif; letter-spacing: .5px;
+  }
+  .mark b { font-weight: 700; white-space: nowrap; }
+  .mark span { color: var(--accent); }
+  h1 {
+    margin: 0;
+    font: 700 34px/1.1 Rajdhani, sans-serif;
+    letter-spacing: 1px;
+  }
+  h1 span { color: var(--accent); }
+  .tag {
+    margin: 8px 0 4px;
+    color: var(--muted);
+    font-size: 15px;
+  }
+  .ar {
+    margin: 0 0 28px;
+    color: var(--muted);
+    font: 500 14px/1.6 Cairo, sans-serif;
+  }
+  .chips { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 30px; }
+  .chip {
+    padding: 4px 12px; border-radius: 999px;
+    border: 1px solid var(--line);
+    color: var(--muted); font-size: 12px; font-weight: 600; letter-spacing: .4px; text-transform: uppercase;
+  }
+
+  nav { display: grid; gap: 12px; }
+  nav a {
+    display: flex; align-items: center; gap: 14px;
+    padding: 15px 18px;
+    border-radius: 14px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    color: var(--text); text-decoration: none;
+    font-weight: 600; font-size: 16px;
+    transition: background .15s, border-color .15s, transform .15s;
+  }
+  nav a:hover, nav a:focus-visible { background: var(--card-hover); border-color: #3a3f4b; transform: translateY(-1px); outline: none; }
+  nav a i { width: 22px; font-size: 20px; text-align: center; }
+  nav a .name { flex: 1; text-align: left; }
+  nav a .handle { color: var(--muted); font-weight: 500; font-size: 14px; }
+  nav a.main { border-color: rgba(255, 59, 48, .5); }
+
+  .yt i { color: #ff0033; }
+  .tt i { color: #fff; text-shadow: 1.5px 1.5px 0 #fe2c55, -1.5px -1.5px 0 #25f4ee; }
+  .ig i { color: #e1306c; }
+  .sc i { color: #fffc00; }
+  .x  i { color: #fff; }
+  .th i { color: #fff; }
+  .fb i { color: #1877f2; }
+
+  footer { margin-top: 34px; color: #5d636e; font-size: 12px; letter-spacing: .3px; }
+
+  @media (prefers-reduced-motion: reduce) { nav a { transition: none; } nav a:hover { transform: none; } }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark" aria-hidden="true"><b>D<span>X</span></b></div>
+  <h1>DRIVO<span>X</span></h1>
+  <p class="tag">Sim racing drift<br>Forza Horizon 6 &amp; Assetto Corsa</p>
+  <p class="ar" dir="rtl">تفحيط بالمحاكي على دركسيون MOZA</p>
+
+  <div class="chips">
+    <span class="chip">Drift</span>
+    <span class="chip">Sim Racing</span>
+    <span class="chip">MOZA Rig</span>
+  </div>
+
+  <nav>
+    <a class="yt main" href="https://www.youtube.com/@drivoxfh6" target="_blank" rel="noopener">
+      <i class="fa-brands fa-youtube"></i><span class="name">YouTube</span><span class="handle">@drivoxfh6</span></a>
+    <a class="tt" href="https://www.tiktok.com/@drivo.x" target="_blank" rel="noopener">
+      <i class="fa-brands fa-tiktok"></i><span class="name">TikTok</span><span class="handle">@drivo.x</span></a>
+    <a class="ig" href="https://www.instagram.com/driv0.x" target="_blank" rel="noopener">
+      <i class="fa-brands fa-instagram"></i><span class="name">Instagram</span><span class="handle">@driv0.x</span></a>
+    <a class="sc" href="https://www.snapchat.com/add/test2026981" target="_blank" rel="noopener">
+      <i class="fa-brands fa-snapchat"></i><span class="name">Snapchat</span><span class="handle">DrivoX</span></a>
+    <a class="x" href="https://x.com/drivo_x" target="_blank" rel="noopener">
+      <i class="fa-brands fa-x-twitter"></i><span class="name">X</span><span class="handle">@drivo_x</span></a>
+    <a class="th" href="https://www.threads.net/@driv0.x" target="_blank" rel="noopener">
+      <i class="fa-brands fa-threads"></i><span class="name">Threads</span><span class="handle">@driv0.x</span></a>
+    <a class="fb" href="https://www.facebook.com/profile.php?id=1113398871853343" target="_blank" rel="noopener">
+      <i class="fa-brands fa-facebook"></i><span class="name">Facebook</span><span class="handle">DrivoX</span></a>
+  </nav>
+
+  <footer>© DrivoX</footer>
+</main>
+</body>
+</html>
